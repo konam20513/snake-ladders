@@ -27,6 +27,9 @@ public class main extends Application{
     private Group tiles=new Group();
     
     public Label game_result;
+
+    public Image board;
+    public Image bottom_bg;
     
     public Circle player1_circle;
     public Circle player2_circle;
@@ -676,13 +679,13 @@ public class main extends Application{
         game_result.setTranslateX(260);
         game_result.setTranslateY(650);
 
-        Image board=new Image("board.jpeg");
+        board=new Image("board.jpeg");
         ImageView background=new ImageView();
         background.setImage(board);
         background.setFitHeight(600);
         background.setFitWidth(600);
         
-        Image bottom_bg=new Image("bg.jpg");
+        bottom_bg=new Image("bg.jpg");
         ImageView bg=new ImageView();
         
         bg.setImage(bottom_bg);
