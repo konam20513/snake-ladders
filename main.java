@@ -495,18 +495,26 @@ public class main extends Application{
                             tiles.getChildren().addAll(dice);
                         }
                         if(player1_x==270 && player1_y==30 && rand_numb>4){
+                            game_result.setTranslateX(260);
+                            game_result.setTranslateY(650);
                             game_result.setText("Out of goal, Try again!");
                             game_result.setTextFill(Color.RED);
                         }
-                        if(player1_x==210 && player1_y==30 && rand_numb>3){
+                        else if(player1_x==210 && player1_y==30 && rand_numb>3){
+                            game_result.setTranslateX(260);
+                            game_result.setTranslateY(650);
                             game_result.setText("Out of goal, Try again!");
                             game_result.setTextFill(Color.RED);
                         }
-                        if(player1_x==150 && player1_y==30 && rand_numb>2){
+                        else if(player1_x==150 && player1_y==30 && rand_numb>2){
+                            game_result.setTranslateX(260);
+                            game_result.setTranslateY(650);
                             game_result.setText("Out of goal, Try again!");
                             game_result.setTextFill(Color.RED);
                         }
-                        if(player1_x==90 && player1_y==30 && rand_numb>1){
+                        else if(player1_x==90 && player1_y==30 && rand_numb>1){
+                            game_result.setTranslateX(260);
+                            game_result.setTranslateY(650);
                             game_result.setText("Out of goal, Try again!");
                             game_result.setTextFill(Color.RED);
                         } 
@@ -607,18 +615,26 @@ public class main extends Application{
                             tiles.getChildren().addAll(dice);
                         }
                         if(player2_x==270 && player2_y==30 && rand_numb>4){
+                            game_result.setTranslateX(260);
+                            game_result.setTranslateY(650);
                             game_result.setText("Out of goal, Try again!");
                             game_result.setTextFill(Color.RED);
                         }
-                        if(player2_x==210 && player2_y==30 && rand_numb>3){
+                        else if(player2_x==210 && player2_y==30 && rand_numb>3){
+                            game_result.setTranslateX(260);
+                            game_result.setTranslateY(650);
                             game_result.setText("Out of goal, Try again!");
                             game_result.setTextFill(Color.RED);
                         }
-                        if(player2_x==150 && player2_y==30 && rand_numb>2){
+                        else if(player2_x==150 && player2_y==30 && rand_numb>2){
+                            game_result.setTranslateX(260);
+                            game_result.setTranslateY(650);
                             game_result.setText("Out of goal, Try again!");
                             game_result.setTextFill(Color.RED);
                         }
-                        if(player2_x==90 && player2_y==30 && rand_numb>1){
+                        else if(player2_x==90 && player2_y==30 && rand_numb>1){
+                            game_result.setTranslateX(260);
+                            game_result.setTranslateY(650);
                             game_result.setText("Out of goal, Try again!");
                             game_result.setTextFill(Color.RED);
                         } 
